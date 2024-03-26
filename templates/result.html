@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detection Results</title>
+    <style>
+        #video-container {
+            position: relative;
+        }
+        #labels-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <video width="640" height="480" controls autoplay>
+            <source src="{{ url_for('uploaded_file', filename=video_filename) }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <h2>the detected video can be found in the static/videos directory</h2>
+</body>
+</html>
