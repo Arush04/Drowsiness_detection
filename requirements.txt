@@ -18,9 +18,10 @@ tqdm>=4.64.0
 ultralytics>=8.0.232
 transformers>=4.0.0  # Added
 flask>=2.0.0  # Added
-bytetracker
+#bytetracker
 supervision==0.1.0
 keras
+Cython
 # protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
 
 # Logging ---------------------------------------------------------------------

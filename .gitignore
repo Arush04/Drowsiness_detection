@@ -1,3 +1,6 @@
 .ipynb_checkpoints
  __pycache__
- myenv
+uploads/
+static/
+runs/detect/
+myenv/
